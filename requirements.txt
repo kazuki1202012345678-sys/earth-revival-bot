@@ -1,0 +1,7 @@
+discord.py
+python-dotenv
+google-generativeai
+aiohttp
+beautifulsoup4
+flask
+apscheduler
