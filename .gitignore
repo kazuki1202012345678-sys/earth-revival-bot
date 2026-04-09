@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/cn_sns_state.json
+data/pve_drafts.json
+*.log
+.DS_Store
