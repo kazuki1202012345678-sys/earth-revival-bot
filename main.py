@@ -43,7 +43,7 @@ async def on_ready():
         if not update_jobs.is_running():
                     update_jobs.start()
 
-    @tasks.loop(hours=1)
+tasks.loop(hours=1)
 async def update_jobs():
         now = datetime.now()
         print(f'[CRON] Periodic task execution: {now.strftime("%Y-%m-%d %H:%M:%S")}')
@@ -77,8 +77,8 @@ if __name__ == "__main__":
         if token:
                     try:
                                     bot.run(token)
-except Exception as e:
-            print(f'[ERROR] Failed to start bot: {e}')
-else:
-        print('[ERROR] DISCORD_TOKEN not found')
+exc        ept Exception as e:
+            pr    int(f'[ERROR] Failed to start bot: {e}')
+el    se:
+        pr    int('[ERROR] DISCORD_TOKEN not found')
     
